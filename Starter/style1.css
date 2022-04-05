@@ -1,0 +1,14 @@
+img{
+    width: 30%;
+    margin: 1%;
+}
+
+.gallery{
+    font-family: 'Fredoka One', cursive;
+    width: 30%;
+    text-transform: uppercase;
+    border-bottom: 2px solid orange;
+    margin-left: 1%;
+    padding: 20px 0;
+    font-size: 50px;
+}

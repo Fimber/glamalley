@@ -1,0 +1,56 @@
+body{
+    background: blueviolet;
+    font-family: "Nunito" sans-serif;
+    overflow-y: scroll;
+}
+
+#mainnavbar .navbar-brand{
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+#mainnavbar  {
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+
+#mainnavbar .nav-link:hover{
+    color: goldenrod;
+}
+
+h1{
+    color: goldenrod;
+}
+
+.medi h2{
+    color: goldenrod;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.medi p{
+    color: goldenrod;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.navbar.scrolled{
+    background-color: blueviolet;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .medi h2 {
+        font-size: 2rem;
+    }
+}
+  
