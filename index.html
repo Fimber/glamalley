@@ -1,31 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Bootstraptest</title>
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
 
-<body>
-    <div class="container">
-        <h1 class="display-1"> placeholder</h1>
-        <h2 class="display-3">Buttons <span class="badge badge-success">A1</span></h2>
-        <button type="button" class="btn btn-primary">YES</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning btn-lg">Warning</button>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
 
-        <p class="mb-0" class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nulla neque numquam nisi illo adipisci voluptatibus culpa quod explicabo. Omnis in quos similique provident explicabo veniam sint aspernatur voluptate! Quasi!</p>
-        <footer class="blockquote-footer">Mr. Lorem ipsum</footer>
-    </div>
+    <title>GlamAlley</title>
+  </head>
+  <!---Navbar start-->
+  <body>
+    <nav id="mainnavbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-0">
+      <a class="navbar-brand" href="#">Glam Alley</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlinks" aria-controls="navbarlinks" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarlinks">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Custom Jewelry
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://wa.link/i4txmc">Place an Order</a>
+              <a class="dropdown-item" href="https://wa.link/h2et4t">Upload a sample</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://wa.link/hfdtnj">Book a call</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--Navbar end-->
 
+    <!--Body-->
+
+    <section class="container-fluid px-0" >
+      <div class="row align-items-center" >
+        <div class="col-6">
+          <div class="text-center d-none d-lg-block" >
+          <h1 class="">GLAM ALLEY</h1>
+          <h1 class="">GLAM ALLEY</h1>
+          <h1 class="">GLAM ALLEY</h1>
+          <h1 class="">GLAM ALLEY</h1>
+        </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/hand1.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-lg-6 order-2 order-md-1">
+          <img src="img/hand2.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center mb-5 mb-md-0">
+            <div class="col-10 col-lg-8 medi">
+          <h2>Look Beautiful with GlamAlley</h2>
+          <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline">
+          <P class="lead">The New Jewelry for the Modern Woman. GlamAlley is the place to find the jewelry you need to express your style. From necklaces to bracelets, we have it all.</P>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row align-items-center content">
+        <div class="col-lg-6 text-center ">
+          <div class="row justify-content-center mb-5 mb-md-0">
+            <div class="col-10 col-lg-8 medi">
+              <h2>Find Your Perfect Jewelry</h2>
+                <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline">
+                  <P class="lead">One of a kind Pieces in your life. Your style is one of a kind. The same is true of your jewelry. Now you can find the perfect match, no matter where you are, at GlamAlley.</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/hand3.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row align-items-center content">
+
+        <div class="col-lg-6 order-2 order-md-1">
+          <img src="img/hand4.jpg" alt="" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 text-center order-1 order-md-2 mb-5 mb-md-0">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 medi">
+          <h2>Shop Gorgeous Jewelry </h2>
+          <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline">
+          <P class="lead">It's the place to be for all your Jewelry needs. We don't mean to brag, but we're the best at what we do. You can't go wrong with the selection at GlamAlley.</P>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+
+
+    <!--CARDS START-->
+    <section class="container-fluid px-0 mt-5">
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/hand5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rings and Accesories</h5>
+            <p class="card-text">Uncover new designs for rings and accesories. Shop the latest jewelry styles now.</p>
+            <a href="https://wa.link/7wkx3s" class="btn btn-primary">Place an Order</a>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/customized24.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Customized Jewelry</h5>
+            <p class="card-text">GlamAlley is designed with variety in mind. Here, no two pieces are alike, We create what's perfect for you!</p>
+            <a href="https://wa.link/2bgcb4" class="btn btn-primary">Place an Order</a>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/watch12.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Watches</h5>
+            <p class="card-text">Dazzling. Elegant. Unique. These are all the terms critics are using when describing GlamAlley watches. Get one for yourself now.</p>
+            <a href="https://wa.link/5s3pkh" class="btn btn-primary">Place an Order</a>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Contact start-->
+    <section>
+      <div class="container-fluid mb-5">
+        <div class=" container mb-5  py-5 pl-lg-5">
+
+          <h2>
+            Contact Us
+          </h2>
+        
+          <form action="https://formsubmit.co/ubahmadelyn@gmail.com" method="POST">
+            <div class="contact-form">
+              <div class="row mb-3">
+                <div class="col control-group">
+                  <input type="text" class="form-control p-4" id="First name" placeholder="First name">
+                </div>
+                <div class="col control-group">
+                  <input type="text" class="form-control p-4" id="Last name" placeholder="Last name">
+                </div>
+              </div>
+              <div class="control-group">
+                <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                    <p class="help-block text-danger"></p>
+              </div>
+              <div class="control-group">
+                  <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                  <p class="help-block text-danger"></p>
+              </div>
+              <div class="control-group">
+                  <textarea class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                  <p class="help-block text-danger"></p>
+              </div>
+              <div>
+                  <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+              </div>
+            </div>
+            
+
+          </form>
+        </div>
+
+      </div>
+      
+      
+    </section>
+
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, GlamAlley</span>
+    </footer>
+
+
+  
+
+
+ 
+
+    
+    
     
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</body>
 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    
+  </body>
 </html>
