@@ -1,5 +1,5 @@
 body{
-    background: blueviolet;
+    background: black;
     font-family: "Nunito" sans-serif;
     overflow-y: scroll;
 }
@@ -23,7 +23,7 @@ h1{
     color: goldenrod;
 }
 
-.medi h2{
+ h2{
     color: goldenrod;
     font-weight: 100;
     font-size: 2.5rem;
@@ -32,7 +32,7 @@ h1{
 .medi p{
     color: goldenrod;
     font-weight: 100;
-    font-size: 1.125rem;
+    font-size: 1.425rem;
     line-height: 2.0;
 }
 .content{
@@ -44,6 +44,8 @@ h1{
     background-color: blueviolet;
 }
 
+
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
@@ -53,4 +55,36 @@ h1{
         font-size: 2rem;
     }
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: black;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
   
